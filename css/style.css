@@ -1,13 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+}
 
        .form-container{
         text-align: center;
         border: 2px solid rgb(105, 171, 200);
         border-radius: 20px;
         box-shadow: 10px 10px 5px rgb(15, 94, 105);
-        width: 20%;
-        
-        margin-top: 100px;
-        margin-left: 500px; 
+        width: 80%;
+        margin: auto;
         padding: 30px;
         background-color: rgba(0, 255, 255, 0.218);
        

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="form-container">
+        <form class="form-1">
+            <h1 style="text-align: center;">Grade Calculation</h1>
+          <table border="2" style="margin-left: 32px;"  >
+            <tr>
+                <th><label>NAME : </label></th>
+                <td><input  id="name" type="text" name="user name" >  </td>
+            </tr>
+            
+            <tr>
+              <th><label>Mark 1</label></th>
+              <td>
+                <input type="number" id="tamil" name="number1" maxlength="2" pattern="[0-9] {2}"/><br />
+              </td>
+            </tr>
+            <tr>
+              <th><label>Mark 2</label></th>
+              <td>
+                <input type="number" id="English" name="number2"/><br />
+              </td>
+            </tr>
+
+           
+              <th> <label>Mark 3</label></th>
+             <td><input type="number"  id="maths"  name="number3" value="" ><br></td>
+        
+             </tr>
+        
+             <tr>
+             
+               <th> <label>Mark 4</label></th>
+             <td><input type="number"  id="science"  name="number4" value="" ><br></td>
+        
+             </tr>
+        
+             
+             <tr>
+               <th> <label>Mark 5</label></th>
+            <td> <input type="number" id="social"  name="number5" value="" ><br></td>
+
+            </tr>
+            <tr>
+               
+                    <th colspan="2">
+                        
+     
+             <input  class="button"  type="button" value="submit" onclick="grade()" />
+           
+             </th>
+             </td>
+             </tr>
+            
+            </table>
+           </form>
+            <div id="show"></div>
+           </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

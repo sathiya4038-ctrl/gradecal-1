@@ -1,6 +1,8 @@
 
         
       function grade() {
+
+       
         let name= document.getElementById("name").value;
         
         let tam = Number(document.getElementById("tamil").value);
@@ -11,6 +13,10 @@
         let res = tam + Eng +mat+sci+soci;
         let avg = res / 5;
         let GRADE;
+         if (name == "") {
+    alert("Please Enter The Student Name ");
+    return;
+  }
         if(avg > 90) {
           GRADE="A";
         }
